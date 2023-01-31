@@ -1,0 +1,45 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-h {
+  padding: 1.5rem;
+  display: flex;
+  flex: 3; /* o left-h ocupa 3/4 do espaço */
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.right-h {
+  flex: 1; /* o right-h ocupa 1/4 do espaço */
+}
+
+.the-best-ad {
+  margin-top: 4rem;
+  background-color: #363d42;
+  border-radius: 4rem;
+  width: fit-content;
+  padding: 20px 13px;
+  text-transform: uppercase;
+  color: white;
+
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.the-best-ad div {
+  position: absolute;
+  background-color: var(--orange);
+  width: 5rem;
+  height: 80%;
+  left: 8px;
+  border-radius: 3rem;
+  z-index: 1;
+}
+
+.the-best-ad span {
+  z-index: 2;
+}
