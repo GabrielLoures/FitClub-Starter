@@ -45,7 +45,7 @@ const Reasons = () => {
 
           <div>
             <img src={tick} alt="Imagem de um tick laranja" />
-            <span>1 PROGRAMA GRÁTIS POR MEMBRO</span>
+            <span>UM PROGRAMA GRÁTIS POR MEMBRO</span>
           </div>
 
           <div>
