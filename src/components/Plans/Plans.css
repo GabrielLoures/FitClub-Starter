@@ -80,7 +80,7 @@
   cursor: pointer;
 }
 
-.btn:hover {
+.btn-p:hover {
   transform: scale(1.05);
   color: var(--orange);
 }

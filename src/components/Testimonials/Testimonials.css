@@ -73,10 +73,15 @@
   gap: 1rem;
   position: absolute;
   bottom: 1rem;
-  left: 3rem;
+  left: 3rem;  
 }
 
 .arrows img {
   width: 1.5rem;
   cursor: pointer;
+  transition: 400ms all;
+}
+
+.arrows>img:hover {
+  transform: scale(1.5);
 }
