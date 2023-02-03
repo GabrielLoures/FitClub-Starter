@@ -25,13 +25,13 @@ const Join = () => {
 
         <hr />
         <div>
-          <span>PREPARE-SE</span>
+          <span className="stroke-text">PREPARE-SE</span>
           <span>PARA LEVAR</span>
         </div>
 
         <div>
           <span>SEU CORPO</span>
-          <span>A OUTRO NÍVEL</span>
+          <span className="stroke-text">A OUTRO NÍVEL</span>
         </div>
 
       </div>
