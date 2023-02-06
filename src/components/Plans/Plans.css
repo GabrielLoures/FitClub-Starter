@@ -98,3 +98,26 @@
   top: 10rem;
   right: 0;
 }
+
+@media screen and (max-width: 768px) {
+
+  .plans {
+    flex-direction: column;
+    transform: scale(0.8);
+    margin-top: -11rem;
+  }
+
+  .plan:hover {
+    background: var(--caloryCard);
+    transform: none;
+  }
+
+  .plan:hover svg {
+    fill: var(--orange);
+  }
+
+  .btn-p:hover {
+    transform: none;
+    color: black;
+  }
+}

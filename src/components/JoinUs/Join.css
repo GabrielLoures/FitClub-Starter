@@ -60,3 +60,39 @@
   color: var(--orange);
   transform: scale(1.05);
 }
+
+@media screen and (max-width: 768px) {
+
+  .join {
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: -2rem;
+  }
+  
+  .left-j {
+    font-size: medium;
+  }
+  
+  .left-j hr {
+    width: 13rem;
+  }
+
+  .right-j {
+    transform: scale(0.75);
+    margin-bottom: -2rem;
+  }
+  
+  .email-container {
+    gap: 2rem;
+  }
+
+  .btn-j {
+    white-space: nowrap;
+  }
+
+  .btn-j:hover {
+    background-color: var(--orange);
+    color: white;
+    transform: none;
+  }
+}
